@@ -14,6 +14,8 @@
 		81A70FA1208A51D900338F93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A70F9F208A51D900338F93 /* LaunchScreen.storyboard */; };
 		81A70FAC208A51D900338F93 /* ProjectArcanumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A70FAB208A51D900338F93 /* ProjectArcanumTests.swift */; };
 		81A70FB7208A51D900338F93 /* ProjectArcanumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A70FB6208A51D900338F93 /* ProjectArcanumUITests.swift */; };
+		81A70FC8208A538400338F93 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A70FC7208A538400338F93 /* Dice.swift */; };
+		81A70FCA208A68E100338F93 /* StatRoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A70FC9208A68E100338F93 /* StatRoller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		81A70FB2208A51D900338F93 /* ProjectArcanumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectArcanumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A70FB6208A51D900338F93 /* ProjectArcanumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectArcanumUITests.swift; sourceTree = "<group>"; };
 		81A70FB8208A51D900338F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81A70FC7208A538400338F93 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		81A70FC9208A68E100338F93 /* StatRoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatRoller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,10 @@
 		81A70F95208A51D900338F93 /* ProjectArcanum */ = {
 			isa = PBXGroup;
 			children = (
-				81A70F96208A51D900338F93 /* AppDelegate.swift */,
-				81A70F98208A51D900338F93 /* ViewController.swift */,
-				81A70F9A208A51D900338F93 /* Main.storyboard */,
-				81A70F9D208A51D900338F93 /* Assets.xcassets */,
-				81A70F9F208A51D900338F93 /* LaunchScreen.storyboard */,
-				81A70FA2208A51D900338F93 /* Info.plist */,
+				81A70FC6208A536100338F93 /* Models */,
+				81A70FC5208A535600338F93 /* ViewControllers */,
+				81A70FCB208A6BB000338F93 /* StoryBoard */,
+				81A70FC4208A534000338F93 /* Supporting Files */,
 			);
 			path = ProjectArcanum;
 			sourceTree = "<group>";
@@ -123,6 +125,42 @@
 				81A70FB8208A51D900338F93 /* Info.plist */,
 			);
 			path = ProjectArcanumUITests;
+			sourceTree = "<group>";
+		};
+		81A70FC4208A534000338F93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81A70F96208A51D900338F93 /* AppDelegate.swift */,
+				81A70F9D208A51D900338F93 /* Assets.xcassets */,
+				81A70F9F208A51D900338F93 /* LaunchScreen.storyboard */,
+				81A70FA2208A51D900338F93 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81A70FC5208A535600338F93 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				81A70F98208A51D900338F93 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		81A70FC6208A536100338F93 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81A70FC7208A538400338F93 /* Dice.swift */,
+				81A70FC9208A68E100338F93 /* StatRoller.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		81A70FCB208A6BB000338F93 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				81A70F9A208A51D900338F93 /* Main.storyboard */,
+			);
+			path = StoryBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +298,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				81A70F99208A51D900338F93 /* ViewController.swift in Sources */,
+				81A70FC8208A538400338F93 /* Dice.swift in Sources */,
 				81A70F97208A51D900338F93 /* AppDelegate.swift in Sources */,
+				81A70FCA208A68E100338F93 /* StatRoller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,8 +467,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YSC9J43G64;
-				INFOPLIST_FILE = ProjectArcanum/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/ProjectArcanum/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NateRosario.ProjectArcanum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,8 +482,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YSC9J43G64;
-				INFOPLIST_FILE = ProjectArcanum/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/ProjectArcanum/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NateRosario.ProjectArcanum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
