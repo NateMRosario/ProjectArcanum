@@ -20,7 +20,6 @@ class AccountViewController: UIViewController {
         view.addSubview(signIn)
         userChecker()
         buttonSetup()
-        
     }
     
     private func userChecker() {
