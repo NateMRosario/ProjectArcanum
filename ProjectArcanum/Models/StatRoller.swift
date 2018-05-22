@@ -8,9 +8,9 @@
 
 import Foundation
 
-class Stats {
+class StatsGenerator {
     private init() {}
-    static let manager = Stats()
+    static let manager = StatsGenerator()
     
     public func numbersForStats() -> [Int] {
         var sixNumbers = [Int]()

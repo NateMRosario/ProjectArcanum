@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		810F0F99209938AA002ECD70 /* CampaignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810F0F98209938AA002ECD70 /* CampaignViewController.swift */; };
+		810F0FF120A624BB002ECD70 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 810F0FF020A624BB002ECD70 /* GoogleService-Info.plist */; };
 		81A70F97208A51D900338F93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A70F96208A51D900338F93 /* AppDelegate.swift */; };
-		81A70F99208A51D900338F93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A70F98208A51D900338F93 /* ViewController.swift */; };
+		81A70F99208A51D900338F93 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A70F98208A51D900338F93 /* AccountViewController.swift */; };
 		81A70F9C208A51D900338F93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A70F9A208A51D900338F93 /* Main.storyboard */; };
 		81A70F9E208A51D900338F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A70F9D208A51D900338F93 /* Assets.xcassets */; };
 		81A70FA1208A51D900338F93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A70F9F208A51D900338F93 /* LaunchScreen.storyboard */; };
@@ -16,6 +18,18 @@
 		81A70FB7208A51D900338F93 /* ProjectArcanumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A70FB6208A51D900338F93 /* ProjectArcanumUITests.swift */; };
 		81A70FC8208A538400338F93 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A70FC7208A538400338F93 /* Dice.swift */; };
 		81A70FCA208A68E100338F93 /* StatRoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A70FC9208A68E100338F93 /* StatRoller.swift */; };
+		81D6B41F20B485ED0036A548 /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D6B41E20B485ED0036A548 /* CharactersViewController.swift */; };
+		81D6B42120B486170036A548 /* EncountersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D6B42020B486170036A548 /* EncountersViewController.swift */; };
+		81D6B42420B486790036A548 /* CreateCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D6B42320B486790036A548 /* CreateCharacterViewController.swift */; };
+		81D6B42620B486850036A548 /* CharacterSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D6B42520B486850036A548 /* CharacterSheetViewController.swift */; };
+		81FCA08E208F886A004BB1B3 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FCA08D208F886A004BB1B3 /* SignIn.swift */; };
+		81FCA090208F8897004BB1B3 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FCA08F208F8897004BB1B3 /* Settings.swift */; };
+		81FCA092208F88FD004BB1B3 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FCA091208F88FD004BB1B3 /* SignUp.swift */; };
+		81FCA095208F89DF004BB1B3 /* FirebaseAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FCA094208F89DF004BB1B3 /* FirebaseAuth.swift */; };
+		81FCA099208F8A60004BB1B3 /* FirebaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FCA098208F8A60004BB1B3 /* FirebaseModel.swift */; };
+		DEAC08D875EA6312607E03D4 /* Pods_ProjectArcanum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3611473A5BD7878E553D74F /* Pods_ProjectArcanum.framework */; };
+		F25A70C1BB0967B503F686C3 /* Pods_ProjectArcanumUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10455D136CB6E748537FFE5C /* Pods_ProjectArcanumUITests.framework */; };
+		FCD3F2E890F1D51071D9111E /* Pods_ProjectArcanumTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721D5CC2124B7CC15729B89F /* Pods_ProjectArcanumTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10455D136CB6E748537FFE5C /* Pods_ProjectArcanumUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectArcanumUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6674022DDF251EB180218628 /* Pods-ProjectArcanumUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectArcanumUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectArcanumUITests/Pods-ProjectArcanumUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		721D5CC2124B7CC15729B89F /* Pods_ProjectArcanumTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectArcanumTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		810F0F98209938AA002ECD70 /* CampaignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignViewController.swift; sourceTree = "<group>"; };
+		810F0FF020A624BB002ECD70 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		81A70F93208A51D900338F93 /* ProjectArcanum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectArcanum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A70F96208A51D900338F93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		81A70F98208A51D900338F93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81A70F98208A51D900338F93 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		81A70F9B208A51D900338F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81A70F9D208A51D900338F93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81A70FA0208A51D900338F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +70,21 @@
 		81A70FB8208A51D900338F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81A70FC7208A538400338F93 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
 		81A70FC9208A68E100338F93 /* StatRoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatRoller.swift; sourceTree = "<group>"; };
+		81D6B41E20B485ED0036A548 /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
+		81D6B42020B486170036A548 /* EncountersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncountersViewController.swift; sourceTree = "<group>"; };
+		81D6B42320B486790036A548 /* CreateCharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCharacterViewController.swift; sourceTree = "<group>"; };
+		81D6B42520B486850036A548 /* CharacterSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSheetViewController.swift; sourceTree = "<group>"; };
+		81FCA08D208F886A004BB1B3 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		81FCA08F208F8897004BB1B3 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		81FCA091208F88FD004BB1B3 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		81FCA094208F89DF004BB1B3 /* FirebaseAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuth.swift; sourceTree = "<group>"; };
+		81FCA098208F8A60004BB1B3 /* FirebaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseModel.swift; sourceTree = "<group>"; };
+		8834AAE3A16A06DB2CC46FE6 /* Pods-ProjectArcanum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectArcanum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectArcanum/Pods-ProjectArcanum.debug.xcconfig"; sourceTree = "<group>"; };
+		A289C597FB1FEA95AF6666CF /* Pods-ProjectArcanumUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectArcanumUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectArcanumUITests/Pods-ProjectArcanumUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A28E4EBE9D0D29BEA5846092 /* Pods-ProjectArcanumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectArcanumTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectArcanumTests/Pods-ProjectArcanumTests.release.xcconfig"; sourceTree = "<group>"; };
+		A66B01FF04C4D1398E70B8E6 /* Pods-ProjectArcanumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectArcanumTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectArcanumTests/Pods-ProjectArcanumTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3611473A5BD7878E553D74F /* Pods_ProjectArcanum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectArcanum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D773F9C266D03EE91581974D /* Pods-ProjectArcanum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectArcanum.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectArcanum/Pods-ProjectArcanum.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEAC08D875EA6312607E03D4 /* Pods_ProjectArcanum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCD3F2E890F1D51071D9111E /* Pods_ProjectArcanumTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +108,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F25A70C1BB0967B503F686C3 /* Pods_ProjectArcanumUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		778B7A508556AA3210A11447 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3611473A5BD7878E553D74F /* Pods_ProjectArcanum.framework */,
+				721D5CC2124B7CC15729B89F /* Pods_ProjectArcanumTests.framework */,
+				10455D136CB6E748537FFE5C /* Pods_ProjectArcanumUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		81A70F8A208A51D900338F93 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +132,8 @@
 				81A70FAA208A51D900338F93 /* ProjectArcanumTests */,
 				81A70FB5208A51D900338F93 /* ProjectArcanumUITests */,
 				81A70F94208A51D900338F93 /* Products */,
+				AA44C16CE08A15FC3E05AAAC /* Pods */,
+				778B7A508556AA3210A11447 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +150,7 @@
 		81A70F95208A51D900338F93 /* ProjectArcanum */ = {
 			isa = PBXGroup;
 			children = (
+				81FCA093208F89C6004BB1B3 /* Services */,
 				81A70FC6208A536100338F93 /* Models */,
 				81A70FC5208A535600338F93 /* ViewControllers */,
 				81A70FCB208A6BB000338F93 /* StoryBoard */,
@@ -134,6 +184,7 @@
 				81A70F9D208A51D900338F93 /* Assets.xcassets */,
 				81A70F9F208A51D900338F93 /* LaunchScreen.storyboard */,
 				81A70FA2208A51D900338F93 /* Info.plist */,
+				810F0FF020A624BB002ECD70 /* GoogleService-Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -141,7 +192,12 @@
 		81A70FC5208A535600338F93 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				81A70F98208A51D900338F93 /* ViewController.swift */,
+				81A70F98208A51D900338F93 /* AccountViewController.swift */,
+				810F0F98209938AA002ECD70 /* CampaignViewController.swift */,
+				81D6B41E20B485ED0036A548 /* CharactersViewController.swift */,
+				81D6B42220B486530036A548 /* CharacterExtensions */,
+				81D6B42020B486170036A548 /* EncountersViewController.swift */,
+				81FCA08C208F884E004BB1B3 /* Views */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -151,6 +207,7 @@
 			children = (
 				81A70FC7208A538400338F93 /* Dice.swift */,
 				81A70FC9208A68E100338F93 /* StatRoller.swift */,
+				81FCA08F208F8897004BB1B3 /* Settings.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -163,6 +220,46 @@
 			path = StoryBoard;
 			sourceTree = "<group>";
 		};
+		81D6B42220B486530036A548 /* CharacterExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				81D6B42520B486850036A548 /* CharacterSheetViewController.swift */,
+				81D6B42320B486790036A548 /* CreateCharacterViewController.swift */,
+			);
+			path = CharacterExtensions;
+			sourceTree = "<group>";
+		};
+		81FCA08C208F884E004BB1B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81FCA08D208F886A004BB1B3 /* SignIn.swift */,
+				81FCA091208F88FD004BB1B3 /* SignUp.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		81FCA093208F89C6004BB1B3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				81FCA094208F89DF004BB1B3 /* FirebaseAuth.swift */,
+				81FCA098208F8A60004BB1B3 /* FirebaseModel.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AA44C16CE08A15FC3E05AAAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8834AAE3A16A06DB2CC46FE6 /* Pods-ProjectArcanum.debug.xcconfig */,
+				D773F9C266D03EE91581974D /* Pods-ProjectArcanum.release.xcconfig */,
+				A66B01FF04C4D1398E70B8E6 /* Pods-ProjectArcanumTests.debug.xcconfig */,
+				A28E4EBE9D0D29BEA5846092 /* Pods-ProjectArcanumTests.release.xcconfig */,
+				6674022DDF251EB180218628 /* Pods-ProjectArcanumUITests.debug.xcconfig */,
+				A289C597FB1FEA95AF6666CF /* Pods-ProjectArcanumUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81A70FBB208A51D900338F93 /* Build configuration list for PBXNativeTarget "ProjectArcanum" */;
 			buildPhases = (
+				B6938892F12AF147BF13C9EF /* [CP] Check Pods Manifest.lock */,
 				81A70F8F208A51D900338F93 /* Sources */,
 				81A70F90208A51D900338F93 /* Frameworks */,
 				81A70F91208A51D900338F93 /* Resources */,
+				C75DD1C0E49F6806F32C94B8 /* [CP] Embed Pods Frameworks */,
+				B4D835FFF88F6927DE55BD7D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81A70FBE208A51D900338F93 /* Build configuration list for PBXNativeTarget "ProjectArcanumTests" */;
 			buildPhases = (
+				1FA66F8FE6B046254A4CBB2D /* [CP] Check Pods Manifest.lock */,
 				81A70FA3208A51D900338F93 /* Sources */,
 				81A70FA4208A51D900338F93 /* Frameworks */,
 				81A70FA5208A51D900338F93 /* Resources */,
+				527CBF245C2866A020E642F4 /* [CP] Embed Pods Frameworks */,
+				67C222262BC621D7BBAF4311 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,9 +308,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81A70FC1208A51D900338F93 /* Build configuration list for PBXNativeTarget "ProjectArcanumUITests" */;
 			buildPhases = (
+				7694F08DD303D7E329656564 /* [CP] Check Pods Manifest.lock */,
 				81A70FAE208A51D900338F93 /* Sources */,
 				81A70FAF208A51D900338F93 /* Frameworks */,
 				81A70FB0208A51D900338F93 /* Resources */,
+				606DB6CB6CD956C4C28F4BAC /* [CP] Embed Pods Frameworks */,
+				E2B3BED2B9EFD72C8AA11817 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81A70FA1208A51D900338F93 /* LaunchScreen.storyboard in Resources */,
+				810F0FF120A624BB002ECD70 /* GoogleService-Info.plist in Resources */,
 				81A70F9E208A51D900338F93 /* Assets.xcassets in Resources */,
 				81A70F9C208A51D900338F93 /* Main.storyboard in Resources */,
 			);
@@ -292,15 +399,183 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FA66F8FE6B046254A4CBB2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjectArcanumTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		527CBF245C2866A020E642F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectArcanumTests/Pods-ProjectArcanumTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		606DB6CB6CD956C4C28F4BAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectArcanumUITests/Pods-ProjectArcanumUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67C222262BC621D7BBAF4311 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectArcanumTests/Pods-ProjectArcanumTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7694F08DD303D7E329656564 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjectArcanumUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4D835FFF88F6927DE55BD7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectArcanum/Pods-ProjectArcanum-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6938892F12AF147BF13C9EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjectArcanum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C75DD1C0E49F6806F32C94B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ProjectArcanum/Pods-ProjectArcanum-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectArcanum/Pods-ProjectArcanum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2B3BED2B9EFD72C8AA11817 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectArcanumUITests/Pods-ProjectArcanumUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		81A70F8F208A51D900338F93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81A70F99208A51D900338F93 /* ViewController.swift in Sources */,
+				81FCA099208F8A60004BB1B3 /* FirebaseModel.swift in Sources */,
+				81FCA095208F89DF004BB1B3 /* FirebaseAuth.swift in Sources */,
+				81D6B42620B486850036A548 /* CharacterSheetViewController.swift in Sources */,
+				81D6B42420B486790036A548 /* CreateCharacterViewController.swift in Sources */,
+				81FCA092208F88FD004BB1B3 /* SignUp.swift in Sources */,
+				81FCA090208F8897004BB1B3 /* Settings.swift in Sources */,
+				81A70F99208A51D900338F93 /* AccountViewController.swift in Sources */,
 				81A70FC8208A538400338F93 /* Dice.swift in Sources */,
+				81D6B42120B486170036A548 /* EncountersViewController.swift in Sources */,
+				81FCA08E208F886A004BB1B3 /* SignIn.swift in Sources */,
 				81A70F97208A51D900338F93 /* AppDelegate.swift in Sources */,
 				81A70FCA208A68E100338F93 /* StatRoller.swift in Sources */,
+				810F0F99209938AA002ECD70 /* CampaignViewController.swift in Sources */,
+				81D6B41F20B485ED0036A548 /* CharactersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +739,7 @@
 		};
 		81A70FBC208A51D900338F93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8834AAE3A16A06DB2CC46FE6 /* Pods-ProjectArcanum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -479,6 +755,7 @@
 		};
 		81A70FBD208A51D900338F93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D773F9C266D03EE91581974D /* Pods-ProjectArcanum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +771,7 @@
 		};
 		81A70FBF208A51D900338F93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A66B01FF04C4D1398E70B8E6 /* Pods-ProjectArcanumTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +789,7 @@
 		};
 		81A70FC0208A51D900338F93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28E4EBE9D0D29BEA5846092 /* Pods-ProjectArcanumTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +807,7 @@
 		};
 		81A70FC2208A51D900338F93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6674022DDF251EB180218628 /* Pods-ProjectArcanumUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -544,6 +824,7 @@
 		};
 		81A70FC3208A51D900338F93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A289C597FB1FEA95AF6666CF /* Pods-ProjectArcanumUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
