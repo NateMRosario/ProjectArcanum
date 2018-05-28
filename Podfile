@@ -11,6 +11,7 @@ target 'ProjectArcanum' do
   pod 'Firebase/Storage’
   pod 'Firebase/Auth’
   pod ‘SnapKit’
+  pod 'Parchment'
 
   target 'ProjectArcanumTests' do
     inherit! :search_paths

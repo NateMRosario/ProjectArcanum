@@ -8,11 +8,11 @@
 
 import Foundation
 
-class StatsGenerator {
+class GameMechanic {
     private init() {}
-    static let manager = StatsGenerator()
+    static let manager = GameMechanic()
     
-    public func numbersForStats() -> [Int] {
+    public func rollStats() -> [Int] {
         var sixNumbers = [Int]()
         for _ in 1...6 {
             sixNumbers.append(statRandomizer())
@@ -39,5 +39,9 @@ class StatsGenerator {
             }
         }
         return total
+    }
+    
+    public func statModifier(stat: Int) -> Int {
+        return (stat - 10) / 2
     }
 }

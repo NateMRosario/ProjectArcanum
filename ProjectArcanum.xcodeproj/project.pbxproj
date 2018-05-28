@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		810F0F99209938AA002ECD70 /* CampaignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810F0F98209938AA002ECD70 /* CampaignViewController.swift */; };
 		810F0FF120A624BB002ECD70 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 810F0FF020A624BB002ECD70 /* GoogleService-Info.plist */; };
+		8154BDAC20BB106E001EA2A6 /* CharacterAbilitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8154BDAB20BB106E001EA2A6 /* CharacterAbilitiesViewController.swift */; };
+		8154BDAE20BB12EF001EA2A6 /* CharacterSkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8154BDAD20BB12EF001EA2A6 /* CharacterSkillsViewController.swift */; };
+		819519EA20BB311700CD8583 /* StoryBoardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819519E920BB311700CD8583 /* StoryBoardExtension.swift */; };
+		819519EC20BB338C00CD8583 /* CharacterFeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819519EB20BB338C00CD8583 /* CharacterFeaturesViewController.swift */; };
+		819519EE20BB343500CD8583 /* CharacterAttacksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819519ED20BB343500CD8583 /* CharacterAttacksViewController.swift */; };
+		819519F020BB353900CD8583 /* CharacterSheet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819519EF20BB353900CD8583 /* CharacterSheet.storyboard */; };
+		819519F420BB506200CD8583 /* StatsCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819519F320BB506200CD8583 /* StatsCVCell.swift */; };
 		81A70F97208A51D900338F93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A70F96208A51D900338F93 /* AppDelegate.swift */; };
 		81A70F99208A51D900338F93 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A70F98208A51D900338F93 /* AccountViewController.swift */; };
 		81A70F9C208A51D900338F93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A70F9A208A51D900338F93 /* Main.storyboard */; };
@@ -17,11 +24,13 @@
 		81A70FAC208A51D900338F93 /* ProjectArcanumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A70FAB208A51D900338F93 /* ProjectArcanumTests.swift */; };
 		81A70FB7208A51D900338F93 /* ProjectArcanumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A70FB6208A51D900338F93 /* ProjectArcanumUITests.swift */; };
 		81A70FC8208A538400338F93 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A70FC7208A538400338F93 /* Dice.swift */; };
-		81A70FCA208A68E100338F93 /* StatRoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A70FC9208A68E100338F93 /* StatRoller.swift */; };
+		81A70FCA208A68E100338F93 /* GameMechanics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A70FC9208A68E100338F93 /* GameMechanics.swift */; };
 		81D6B41F20B485ED0036A548 /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D6B41E20B485ED0036A548 /* CharactersViewController.swift */; };
 		81D6B42120B486170036A548 /* EncountersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D6B42020B486170036A548 /* EncountersViewController.swift */; };
 		81D6B42420B486790036A548 /* CreateCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D6B42320B486790036A548 /* CreateCharacterViewController.swift */; };
 		81D6B42620B486850036A548 /* CharacterSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D6B42520B486850036A548 /* CharacterSheetViewController.swift */; };
+		81D6B46F20B4A0BA0036A548 /* CharactersTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D6B46E20B4A0BA0036A548 /* CharactersTVCell.swift */; };
+		81D6B47420B86EB90036A548 /* DiceRoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D6B47320B86EB90036A548 /* DiceRoller.swift */; };
 		81FCA08E208F886A004BB1B3 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FCA08D208F886A004BB1B3 /* SignIn.swift */; };
 		81FCA090208F8897004BB1B3 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FCA08F208F8897004BB1B3 /* Settings.swift */; };
 		81FCA092208F88FD004BB1B3 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FCA091208F88FD004BB1B3 /* SignUp.swift */; };
@@ -55,6 +64,13 @@
 		721D5CC2124B7CC15729B89F /* Pods_ProjectArcanumTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectArcanumTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		810F0F98209938AA002ECD70 /* CampaignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignViewController.swift; sourceTree = "<group>"; };
 		810F0FF020A624BB002ECD70 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8154BDAB20BB106E001EA2A6 /* CharacterAbilitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterAbilitiesViewController.swift; sourceTree = "<group>"; };
+		8154BDAD20BB12EF001EA2A6 /* CharacterSkillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSkillsViewController.swift; sourceTree = "<group>"; };
+		819519E920BB311700CD8583 /* StoryBoardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoardExtension.swift; sourceTree = "<group>"; };
+		819519EB20BB338C00CD8583 /* CharacterFeaturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterFeaturesViewController.swift; sourceTree = "<group>"; };
+		819519ED20BB343500CD8583 /* CharacterAttacksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterAttacksViewController.swift; sourceTree = "<group>"; };
+		819519EF20BB353900CD8583 /* CharacterSheet.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CharacterSheet.storyboard; sourceTree = "<group>"; };
+		819519F320BB506200CD8583 /* StatsCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsCVCell.swift; sourceTree = "<group>"; };
 		81A70F93208A51D900338F93 /* ProjectArcanum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectArcanum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A70F96208A51D900338F93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81A70F98208A51D900338F93 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
@@ -69,11 +85,13 @@
 		81A70FB6208A51D900338F93 /* ProjectArcanumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectArcanumUITests.swift; sourceTree = "<group>"; };
 		81A70FB8208A51D900338F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81A70FC7208A538400338F93 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
-		81A70FC9208A68E100338F93 /* StatRoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatRoller.swift; sourceTree = "<group>"; };
+		81A70FC9208A68E100338F93 /* GameMechanics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMechanics.swift; sourceTree = "<group>"; };
 		81D6B41E20B485ED0036A548 /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
 		81D6B42020B486170036A548 /* EncountersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncountersViewController.swift; sourceTree = "<group>"; };
 		81D6B42320B486790036A548 /* CreateCharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCharacterViewController.swift; sourceTree = "<group>"; };
 		81D6B42520B486850036A548 /* CharacterSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSheetViewController.swift; sourceTree = "<group>"; };
+		81D6B46E20B4A0BA0036A548 /* CharactersTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersTVCell.swift; sourceTree = "<group>"; };
+		81D6B47320B86EB90036A548 /* DiceRoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRoller.swift; sourceTree = "<group>"; };
 		81FCA08D208F886A004BB1B3 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		81FCA08F208F8897004BB1B3 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		81FCA091208F88FD004BB1B3 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
@@ -195,9 +213,12 @@
 				81A70F98208A51D900338F93 /* AccountViewController.swift */,
 				810F0F98209938AA002ECD70 /* CampaignViewController.swift */,
 				81D6B41E20B485ED0036A548 /* CharactersViewController.swift */,
-				81D6B42220B486530036A548 /* CharacterExtensions */,
+				81D6B42520B486850036A548 /* CharacterSheetViewController.swift */,
+				81D6B42220B486530036A548 /* CharacterSheetExtensions */,
+				81D6B42320B486790036A548 /* CreateCharacterViewController.swift */,
 				81D6B42020B486170036A548 /* EncountersViewController.swift */,
 				81FCA08C208F884E004BB1B3 /* Views */,
+				81D6B46D20B4A01C0036A548 /* Cells */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -206,8 +227,9 @@
 			isa = PBXGroup;
 			children = (
 				81A70FC7208A538400338F93 /* Dice.swift */,
-				81A70FC9208A68E100338F93 /* StatRoller.swift */,
+				81A70FC9208A68E100338F93 /* GameMechanics.swift */,
 				81FCA08F208F8897004BB1B3 /* Settings.swift */,
+				819519E920BB311700CD8583 /* StoryBoardExtension.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -216,17 +238,29 @@
 			isa = PBXGroup;
 			children = (
 				81A70F9A208A51D900338F93 /* Main.storyboard */,
+				819519EF20BB353900CD8583 /* CharacterSheet.storyboard */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
 		};
-		81D6B42220B486530036A548 /* CharacterExtensions */ = {
+		81D6B42220B486530036A548 /* CharacterSheetExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				81D6B42520B486850036A548 /* CharacterSheetViewController.swift */,
-				81D6B42320B486790036A548 /* CreateCharacterViewController.swift */,
+				8154BDAB20BB106E001EA2A6 /* CharacterAbilitiesViewController.swift */,
+				8154BDAD20BB12EF001EA2A6 /* CharacterSkillsViewController.swift */,
+				819519ED20BB343500CD8583 /* CharacterAttacksViewController.swift */,
+				819519EB20BB338C00CD8583 /* CharacterFeaturesViewController.swift */,
 			);
-			path = CharacterExtensions;
+			path = CharacterSheetExtensions;
+			sourceTree = "<group>";
+		};
+		81D6B46D20B4A01C0036A548 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				81D6B46E20B4A0BA0036A548 /* CharactersTVCell.swift */,
+				819519F320BB506200CD8583 /* StatsCVCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		81FCA08C208F884E004BB1B3 /* Views */ = {
@@ -234,6 +268,7 @@
 			children = (
 				81FCA08D208F886A004BB1B3 /* SignIn.swift */,
 				81FCA091208F88FD004BB1B3 /* SignUp.swift */,
+				81D6B47320B86EB90036A548 /* DiceRoller.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -380,6 +415,7 @@
 				810F0FF120A624BB002ECD70 /* GoogleService-Info.plist in Resources */,
 				81A70F9E208A51D900338F93 /* Assets.xcassets in Resources */,
 				81A70F9C208A51D900338F93 /* Main.storyboard in Resources */,
+				819519F020BB353900CD8583 /* CharacterSheet.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +559,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-ProjectArcanum/Pods-ProjectArcanum-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Parchment/Parchment.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -531,6 +568,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parchment.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -562,18 +600,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81D6B47420B86EB90036A548 /* DiceRoller.swift in Sources */,
+				819519EA20BB311700CD8583 /* StoryBoardExtension.swift in Sources */,
 				81FCA099208F8A60004BB1B3 /* FirebaseModel.swift in Sources */,
 				81FCA095208F89DF004BB1B3 /* FirebaseAuth.swift in Sources */,
 				81D6B42620B486850036A548 /* CharacterSheetViewController.swift in Sources */,
+				8154BDAC20BB106E001EA2A6 /* CharacterAbilitiesViewController.swift in Sources */,
 				81D6B42420B486790036A548 /* CreateCharacterViewController.swift in Sources */,
 				81FCA092208F88FD004BB1B3 /* SignUp.swift in Sources */,
 				81FCA090208F8897004BB1B3 /* Settings.swift in Sources */,
+				819519EE20BB343500CD8583 /* CharacterAttacksViewController.swift in Sources */,
+				8154BDAE20BB12EF001EA2A6 /* CharacterSkillsViewController.swift in Sources */,
 				81A70F99208A51D900338F93 /* AccountViewController.swift in Sources */,
 				81A70FC8208A538400338F93 /* Dice.swift in Sources */,
 				81D6B42120B486170036A548 /* EncountersViewController.swift in Sources */,
+				81D6B46F20B4A0BA0036A548 /* CharactersTVCell.swift in Sources */,
 				81FCA08E208F886A004BB1B3 /* SignIn.swift in Sources */,
+				819519EC20BB338C00CD8583 /* CharacterFeaturesViewController.swift in Sources */,
 				81A70F97208A51D900338F93 /* AppDelegate.swift in Sources */,
-				81A70FCA208A68E100338F93 /* StatRoller.swift in Sources */,
+				819519F420BB506200CD8583 /* StatsCVCell.swift in Sources */,
+				81A70FCA208A68E100338F93 /* GameMechanics.swift in Sources */,
 				810F0F99209938AA002ECD70 /* CampaignViewController.swift in Sources */,
 				81D6B41F20B485ED0036A548 /* CharactersViewController.swift in Sources */,
 			);

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7E67C042B8151B00C1A59D3E39A0BC52"
+               BlueprintIdentifier = "51D20FE9F0B9A14244CE923E32840BA1"
                BuildableName = "Pods_ProjectArcanum.framework"
                BlueprintName = "Pods-ProjectArcanum"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,7 +26,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -37,7 +36,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -47,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7E67C042B8151B00C1A59D3E39A0BC52"
+            BlueprintIdentifier = "51D20FE9F0B9A14244CE923E32840BA1"
             BuildableName = "Pods_ProjectArcanum.framework"
             BlueprintName = "Pods-ProjectArcanum"
             ReferencedContainer = "container:Pods.xcodeproj">

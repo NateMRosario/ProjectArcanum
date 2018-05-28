@@ -49,6 +49,7 @@ PODS:
     - nanopb/encode (= 0.3.8)
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
+  - Parchment (1.1.0)
   - SnapKit (4.0.0)
 
 DEPENDENCIES:
@@ -56,6 +57,7 @@ DEPENDENCIES:
   - Firebase/Core
   - Firebase/Database
   - Firebase/Storage
+  - Parchment
   - SnapKit
 
 SPEC CHECKSUMS:
@@ -70,8 +72,9 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 390ea358e5a0d0133153806f744662dad933d06b
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  Parchment: 88f4b2642a09f37ee314a7492067a9ce04edc3b8
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
-PODFILE CHECKSUM: 3e10e6db04cf44f072a78c5f2cfb649ad9abfa56
+PODFILE CHECKSUM: c219739ae272e9bcbd3a6d62f4af33051721bd8f
 
 COCOAPODS: 1.4.0
