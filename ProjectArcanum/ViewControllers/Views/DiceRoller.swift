@@ -24,6 +24,7 @@ class DiceRoller: UIView {
     
     lazy var titleLabel: UILabel = {
         let label = UILabel()
+        label.text = "Roll"
         label.font = Settings.manager.globalTitleFont
         label.textColor = .black
         return label
@@ -31,6 +32,7 @@ class DiceRoller: UIView {
     
     lazy var detailLabel: UILabel = {
         let label = UILabel()
+        label.text = "Ability + Modifier"
         label.font = Settings.manager.globalDetailFont
         label.textColor = .black
         return label
@@ -38,6 +40,7 @@ class DiceRoller: UIView {
     
     lazy var totalLabel: UILabel = {
         let label = UILabel()
+        label.text = "25"
         label.font = Settings.manager.globalTitleFont
         label.textColor = .black
         return label
@@ -45,6 +48,7 @@ class DiceRoller: UIView {
     
     lazy var numbersRolled: UILabel = {
         let label = UILabel()
+        label.text = "15 + 10"
         label.font = Settings.manager.globalDetailFont
         label.textColor = .black
         return label
@@ -52,7 +56,7 @@ class DiceRoller: UIView {
     
     lazy var diceButton: UIButton = {
         let button = UIButton()
-        button.imageView?.image = #imageLiteral(resourceName: "dd-dice-512")
+        button.setImage(#imageLiteral(resourceName: "dd-dice-512"), for: .normal)
         button.imageView?.tintColor = .brown
         return button
     }()
@@ -80,7 +84,7 @@ class DiceRoller: UIView {
         })}
         
         containerView.snp.makeConstraints { (make) in
-            make.height.equalTo(self).multipliedBy(0.5)
+            make.height.equalTo(self).multipliedBy(0.4)
             make.width.equalTo(self).multipliedBy(0.8)
             make.center.equalTo(self)
         }
@@ -90,26 +94,25 @@ class DiceRoller: UIView {
             make.height.equalTo(containerView).multipliedBy(0.25)
         }
         titleLabel.snp.makeConstraints { (make) in
-            make.top.leading.equalTo(headerView).offset(10)
+            make.top.equalTo(headerView.snp.top)
+            make.leading.equalTo(headerView).offset(10)
         }
         detailLabel.snp.makeConstraints { (make) in
-            make.top.equalTo(titleLabel).offset(5)
+            make.bottom.equalTo(headerView.snp.bottom)
             make.leading.equalTo(headerView).offset(10)
         }
         
         totalLabel.snp.makeConstraints { (make) in
-            make.top.equalTo(headerView)
+            make.top.equalTo(headerView.snp.bottom).offset(25)
         }
         
         numbersRolled.snp.makeConstraints { (make) in
-            make.top.equalTo(totalLabel)
+            make.top.equalTo(totalLabel.snp.bottom).offset(5)
         }
         
         diceButton.snp.makeConstraints { (make) in
-            make.top.equalTo(numbersRolled)
+            make.bottom.equalTo(containerView.snp.bottom).offset(-20)
+            make.height.width.equalTo(containerView).multipliedBy(0.18)
         }
-        
-        
     }
-
 }

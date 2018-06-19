@@ -10,35 +10,38 @@ import UIKit
 
 class CharactersViewController: UIViewController {
 
-    var testArr = ["Vokiir", "Methos", "Varis"]
+    var players = TestCharacters.sheet()
+    var diceVC = DiceRollerViewController()
     
     @IBOutlet weak var charTableView: UITableView!
     @IBAction func createButtonPressed(_ sender: UIButton) {
-        self.view.addSubview(DiceRoller())
+        present(diceVC, animated: true, completion: nil)
+        diceVC.modalPresentationStyle = .overCurrentContext
+        
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         charTableView.dataSource = self
         charTableView.delegate = self
-
     }
-
-    
 }
 extension CharactersViewController: UITableViewDataSource, UITableViewDelegate {
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return testArr.count
+        return players.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CharCell", for: indexPath)
-        let char = testArr[indexPath.row]
-        cell.textLabel?.text = char
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CharCell", for: indexPath) as! CharactersTVCell
+        let character = players[indexPath.row]
+        cell.configureCell(sheet: character)
         return cell
     }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destination = segue.destination as? CharacterSheetViewController {
+            let selectedRow = charTableView.indexPathForSelectedRow!.row
+            destination.player = players[selectedRow]
+        }
     }
-    
 }

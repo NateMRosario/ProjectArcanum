@@ -21,12 +21,20 @@ class CharactersTVCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
         // Configure the view for the selected state
     }
     
     func configureCell(sheet: CharacterSheet) {
-        playerImage.image = nil //TODO: set image
+        switch sheet.name {
+        case "Vokiir":
+            playerImage.image = #imageLiteral(resourceName: "barbarian")
+        case "Varis":
+            playerImage.image = #imageLiteral(resourceName: "druid")
+        case "Meethos":
+            playerImage.image = #imageLiteral(resourceName: "rogue")
+        default:
+            break
+        }
         nameLabel.text = sheet.name
         infoLabel.text = ("\(sheet.race) \(sheet.charClass.first?.className ?? "") \(sheet.charClass.first?.level ?? 0)")
         

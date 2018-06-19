@@ -41,11 +41,12 @@ struct CharacterSheet: Codable {
     let race: String
     let charClass: [CharacterClass]
     let stats: [Stats]
+    let proficiency: Int
+    let speed: Int
     let armorClass: Int
     let currentHp: Int
     let maxHp: Int
     let tempHp: Int
-    let movement: Int
     let passivePerception: Int
     let condition: [String]?
     func sheetToJson() -> Any {
@@ -64,6 +65,9 @@ struct Stats: Codable {
     let intelligence: Int
     let wisdom: Int
     let charisma: Int
+    func toArray() -> [Int] {
+        return [strength, dexterity, constitution, intelligence, wisdom, charisma]
+    }
 }
 
 

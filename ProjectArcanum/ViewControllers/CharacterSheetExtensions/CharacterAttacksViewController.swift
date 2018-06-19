@@ -17,7 +17,6 @@ class CharacterAttacksViewController: UIViewController {
         tableView.dataSource = self
     }
     
-    
 }
 extension CharacterAttacksViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
